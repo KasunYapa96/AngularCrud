@@ -11,9 +11,9 @@ import { ViewAllProductsByCategoryComponent } from './view-all-products-by-categ
 import { ViewAllProductsByDateComponent } from './view-all-products-by-date/view-all-products-by-date.component';
 
 const routes: Routes = [
-  { path: '', component: ProductsComponent },
+  { path: '', component: ViewAllProductsComponent },
   { path: 'create-product', component: CreateProductComponent },
-  { path: 'list-products', component: ViewAllProductsComponent },
+
   { path: 'search', component: ViewAllProductsByCategoryComponent },
   { path: 'search-date', component: ViewAllProductsByDateComponent },
   { path: 'delete-product/:id', component: DeleteProductComponent },
